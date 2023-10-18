@@ -1,0 +1,78 @@
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+.head {
+   background: gray;
+   border-radius: 5px;
+   justify-content: center;
+   text-align: center;
+   color: aqua;
+   padding: 15px 8px;
+}
+
+#header{
+   display: flex;
+}
+.car {
+   width: 18%;
+   margin: 30px;
+   border-radius: 5px;
+   background: gray;
+}
+
+.car:hover {
+   box-shadow: 2px 2px 10px black;
+   transition: 0.5s;
+}
+
+.image img {
+   width: 100%;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+}
+
+button:hover {
+   background-color: black;
+   color: white;
+   cursor: pointer;
+   transition: 3s;
+}
+.des {
+   text-align: center;
+   padding: 5px;
+   color:chartreuse;
+}
+.did{
+   text-align: center;
+   padding: 20px 20px;
+   
+}
+.did a{
+   text-decoration: none;
+   color: blue;
+   background: #ff004f;
+   margin: 10px;
+   padding: 8px 40px;
+   border-radius: 5px;
+   border: 1px solid black;
+}
+.title {
+   color: blue;
+   text-align: center;
+   padding: 7px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+
+@media screen {
+   body{
+      width:max-content;
+   }
+}
